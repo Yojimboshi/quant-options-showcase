@@ -1,0 +1,44 @@
+{
+  "name": "crypto-options-trading-platform",
+  "version": "2.0.0",
+  "main": "src/index.js",
+  "description": "Professional cryptocurrency dual investment trading platform with advanced risk management, automated hedging strategies, and real-time portfolio optimization",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js --dev",
+    "test": "npm run test:unit && npm run test:integration",
+    "test:unit": "echo \"Unit tests would run here\"",
+    "test:integration": "echo \"Integration tests would run here\"",
+    "analyze": "node scripts/marketAnalyzer.js",
+    "backtest": "node scripts/backtestEngine.js",
+    "demo": "node scripts/demoMode.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YourUsername/crypto-options-trading-platform.git"
+  },
+  "keywords": [
+    "cryptocurrency",
+    "trading",
+    "dual-investment",
+    "options",
+    "risk-management",
+    "automated-trading",
+    "portfolio-optimization",
+    "fintech",
+    "algorithmic-trading",
+    "blockchain"
+  ],
+  "author": "Professional Trader & Developer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YourUsername/crypto-options-trading-platform/issues"
+  },
+  "homepage": "https://github.com/YourUsername/crypto-options-trading-platform#readme",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "binance-api-node": "^0.12.9",
+    "dotenv": "^16.4.7",
+    "node-cron": "^3.0.3"
+  }
+}
